@@ -41,6 +41,10 @@
     };
 };
 
+&right_encoder {
+    status = "okay";
+}
+
 &xiao_serial { status = "disabled"; };
 
 &spi0 {
